@@ -5,11 +5,11 @@ name := "scala-mqtt-client-raspberryPi-starter-kit"
 
 version := "1.0"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq(
-  "org.eclipse.paho" % "org.eclipse.paho.client.mqttv3" % "1.0.2",
-  "com.typesafe" % "config" % "1.2.1")
+  "org.eclipse.paho" % "org.eclipse.paho.client.mqttv3" % "1.2.0",
+  "com.typesafe" % "config" % "1.3.1")
 
 resolvers += "MQTT Repository" at "https://repo.eclipse.org/content/repositories/paho-releases/"
 
